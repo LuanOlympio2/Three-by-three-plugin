@@ -1,0 +1,26 @@
+crafting:
+  pickaxe: true
+  shovel: true
+  axe: true
+  hoe: true
+
+  tiers:
+    wood: true
+    stone: true
+    copper: true
+    iron: true
+    diamond: true
+
+copper_base_material: "IRON"
+
+blacklist:
+  - "BEDROCK"
+  - "BARRIER"
+  - "END_PORTAL"
+  - "END_PORTAL_FRAME"
+  - "NETHER_PORTAL"
+  - "COMMAND_BLOCK"
+  - "CHAIN_COMMAND_BLOCK"
+  - "REPEATING_COMMAND_BLOCK"
+  - "STRUCTURE_BLOCK"
+  - "JIGSAW"

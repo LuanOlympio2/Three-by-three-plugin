@@ -1,0 +1,16 @@
+name: ThreeByThree
+version: 1.0
+main: com.luan.threebythree.ThreeByThree
+api-version: 1.13
+author: Luan
+description: Plugin de ferramentas 3x3
+commands:
+  give3x3:
+    description: Da uma ferramenta 3x3
+    permission: threebythree.give
+    usage: /give3x3 <player> <type> [tier]
+permissions:
+  threebythree.give:
+    description: Permissao para usar o comando give3x3
+    default: op
+softdepend: [Vault, WorldGuard, Essentials, GriefPrevention, Residence, Towny]
